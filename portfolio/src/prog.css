@@ -1,0 +1,35 @@
+.prog{
+    padding: 0 70px 50px 70px
+    
+}
+
+.progress, .progress-stacked {
+    --bs-progress-height: 1.5rem;
+    --bs-progress-font-size: 1rem;
+    --bs-progress-bg: var(--bs-secondary-bg);
+    --bs-progress-border-radius: var(--bs-border-radius);
+    --bs-progress-box-shadow: var(--bs-box-shadow-inset);
+    --bs-progress-bar-color: #fff;
+    --bs-progress-bar-bg: #0d6efd;
+    --bs-progress-bar-transition: width 0.6s ease;
+    display: flex;
+    height: var(--bs-progress-height);
+    overflow: hidden;
+    font-size: var(--bs-progress-font-size);
+    background-color: var(--bs-progress-bg);
+    border-radius: var(--bs-progress-border-radius);
+}
+
+
+
+
+.bg-my {
+    --bs-bg-opacity: 1;
+    background-color: hsl( 224 , 89%, 60%);
+}
+
+@media (max-width:998px){
+    .prog{
+        padding: 0 40px 30px 40px
+    }
+}

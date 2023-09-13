@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-pic{
+    height: 500px;
+    width: 500px;
+    border-radius: 56% 44% 73% 27% / 45% 68% 32% 55%;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+.main-pic:hover{
+    border-radius: 79% 21% 29% 71% / 11% 74% 26% 89%;
+    transition: 3s;
+   
+}
+
+
+.home-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color:hsl( 224 , 56%, 12%) ;
+}
+
+
+
+.home-hero{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.home-detail h1{
+    line-height: 30px;
+    font-size: 3rem;
+    margin-bottom: 30px;
+    font-weight: bolder;
+    color: white;
+}
+
+
+.name{
+    color: hsl( 224 , 89%, 60%);
+}
+
+
+
+.btn a .btn-1{
+    width: 150px;
+    height: 40px;
+    background-color: hsl( 224 , 89%, 60%);
+    font-size: 1em;
+    font-weight: bolder;
+    color: white;
+    border: none;
+    border-radius: 3px;
+
+}
+
+
+.btn a .btn-1:hover{
+    box-shadow: 0 5px 10px;
+    transition: 1s;
+}
+
+
+.social-media{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.social-media a{
+    font-size: 1.5em;
+    color: white
+}
+
+
+@media(max-width:998px){
+    .home-main{
+        display: block;
+    }
+
+    .main-pic{
+        width: 80%;
+        height: 50vh;
+        border-radius: 79% 21% 29% 71% / 11% 74% 26% 89%;
+        display: flex;
+        
+        justify-content: center;
+        margin-top: 30px;
+        object-fit: contain;
+    }
+
+    .home-pic{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+   
+
+    .home-hero{
+        align-items: start;
+        height: 50%;
+        width: 90%;
+        padding-left: 2em;
+    }
+    
+    .home-detail h1{
+       text-align: left;
+       font-size: 2rem;
+       line-height: 35px;
+       margin-bottom: 10px;
+       font-weight: bolder;
+       
+    }
+
+    .social-media{
+        display: none;
+    }
+
+    .btn-1{
+        margin-bottom: 100px;
+    }
+    
+    
+}

@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.edu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 30px;
+    margin-bottom: 100px;
+    background-color: hsl( 224 , 56%, 12%);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.edu-main{
+    background-color: hsl( 224 , 56%, 30%);
+    width: 40%;
+    margin: 10px;
+    padding: 20px;
+    color: white;
+   
+}
+
+.edu-main:hover{
+    background-color: white;
+    width: 40%;
+    margin: 10px;
+    padding: 20px;
+    box-shadow: rgb(66, 74, 84) 0px 50px 1000px -20px;
+    transition: 2s;
+    color: black;
+}
+
+.key-1{
+    color: #8299B5;
+}
+@media(max-width:998px){
+    .edu-main{
+        width: 90%;
+    }
+
+    .edu-main:hover{
+        background-color: white;
+        width: 100%;
+       
+        box-shadow: rgb(66, 74, 84) 0px 50px 1000px -20px;
+        transition: 2s;
+        color: black;
+    }
+}

@@ -1,0 +1,66 @@
+
+
+.about-pic{
+    background-image: url('https://cdn.pixabay.com/photo/2016/03/26/13/09/cup-of-coffee-1280537_1280.jpg') ;
+    height: 500px;
+    width: 40%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+
+.about-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+}
+
+.about-detail{
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.about-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl( 224 , 89%, 60%);
+    margin-top: 100px;
+}
+
+.key{
+    color: hsl( 224 , 89%, 60%);
+    font-weight: bolder;
+}
+
+.border-1{
+    border-bottom: 4px solid hsl( 224 , 89%, 60%);
+    width: 70px;
+    margin-bottom: 50px;
+}
+
+.border-main-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-border{
+    height: 100vh;
+    border: 1px solid hsl( 224 , 89%, 60%);
+    box-shadow: 0 5px 5px;
+}
+
+@media(max-width:998px){
+    .about-pic{
+        display: none;
+    }
+
+    .about-detail{
+        width: 90%;
+    }
+}

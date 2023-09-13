@@ -1,0 +1,33 @@
+.exp-con{
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    box-shadow: rgb(66, 74, 84) 0px 50px 1000px -20px;
+    
+}
+
+.exp-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 50px;
+ 
+}
+
+
+@media(max-width:998px){
+    .exp-main{
+        display: block;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .exp-con{
+        width: 100%;
+    }
+    
+}

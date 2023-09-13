@@ -1,0 +1,6 @@
+.skill-heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: hsl( 224 , 89%, 60%);
+}

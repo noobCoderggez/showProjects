@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.text-logo{
+    font-size: 20px;
+    background: linear-gradient(179deg, #00dbde,#fc00ff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main-nav{
+    width: 100%;
+    height: 5rem;
+    display: grid;
+    grid-template-columns: 10rem 1fr 4fr 1fr  10rem;
+    box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.logo{
+    display: grid;
+    grid-column: 2/2;
+    align-items: center;
+    justify-content: start;
+    height: 80px;
+}
+
+ 
+
+.menu-link{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.menu-link a{
+    text-decoration: none;
+    font-size: 1.2em;
+    text-transform: capitalize;
+}
+
+
+
+.hamburger-menu{
+    display: none;
+}
+
+
+.mobile-link{
+    display: none;
+}
+
+@media(max-width:998px){
+    .menu-link{
+        display: none;
+    }
+
+    .main-nav{
+        width: 100%;
+        height: 5rem;
+        display: grid;
+        grid-template-columns: 2rem 1fr 1fr 2fr 0rem;
+        box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px;
+    }
+   
+    .hamburger-menu{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        font-size: 30px;
+    }
+
+
+    .hamburger-menu a{
+        background: linear-gradient(180deg, #00dbde,#fc00ff);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    
+    .logo{
+        grid-column: 2/4;
+    }
+
+    .mobile-link{
+        display: grid;
+        grid-column: 1/5;
+        grid-row: 3/4;
+        background-color: hsl( 224 , 56%, 12%);
+        padding-left: 2rem;
+        height: 20rem;
+        padding-top: 2em;
+        box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px;
+        transition: all .5s linear;
+        z-index: 99;
+        
+    }
+
+    .mobile-link a{
+        text-decoration: none;
+        color: white;
+    }
+
+    
+
+  
+}

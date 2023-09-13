@@ -1,0 +1,26 @@
+.contact-main{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: hsl( 224 , 56%, 12%);
+    color: white;
+    padding: 40px;
+}
+
+.social-media-2 a{
+    margin: 10px;
+    color: white;
+}
+
+@media(max-width:998px){
+    .contact-main{
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        padding: 10px;
+    }
+
+    .social-media-2 a{
+        margin: 2px;
+    }
+}

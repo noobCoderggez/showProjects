@@ -1,0 +1,34 @@
+[
+    {
+        "program":"SSC",
+        "Institute":"P.N Girls High School, Rajshahi",
+        "Passing":"2012",
+        "Department":"Science",
+        "CGPA":"5.00"
+    },
+
+
+    {
+        "program":"HSC",
+        "Institute":"New Govt. Degree College, Rajshahi",
+        "Passing":"2014",
+        "Department":"Business Administration",
+        "CGPA":"4.30"
+    },
+
+    {
+        "program":"BBA",
+        "Institute":"Varendra University, Rajshahi",
+        "Passing":"2020",
+        "Department":"Finance",
+        "CGPA":"3.90"
+    },
+
+    {
+        "program":"MBA",
+        "Institute":"Rajshahi University, Rajshahi",
+        "Passing":"2023",
+        "Department":"Finance",
+        "CGPA":"3.50"
+    }
+]
